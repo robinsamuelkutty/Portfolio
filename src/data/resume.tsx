@@ -90,7 +90,7 @@ export const DATA = {
       title: "Web Developer",
       logoUrl: "/cep.png",
       start: "Jun 2024",
-      end: "Aug 2024",
+      end: "Present",
       
     },
     
@@ -204,319 +204,139 @@ export const DATA = {
       image: "/unitymeet.png",
     },
     {
-      title: "SmartLock",
-      href: "https://github.com/joswinemmanuel/SmartLock",
-      dates: "Oct 2024 - Nov 2024",
+      title: "ECap CEPoonjar",
+      href: "https://github.com/robinsamuelkutty/CollegeAdmManage",
+      dates: "Jun 2024 - Aug 2024",
       active: true,
       description:
-        "SmartLock is an Arduino-based RFID access control system with GPS location tracking, providing secure authentication through RFID cards and real-time validation via a server.",
+        "Developed a comprehensive College Administration System for my institution using the MERN stack (MongoDB, Express.js, React, Node.js). This system streamlines administrative, academic, and student-related tasks through separate modules for faculty, students, and administrators, ensuring seamless operation across all roles.",
       technologies: [
-        "Arduino",
-        "C++",
-        "AT Commands",
-        "HTML",
-        "CSS",
-        "Python",
-        "Flask",
-        "jQuery",
-        "SQLite",
-        "Shadcn UI",
-        "ThinkSpeak",
+        "MongoDB",
+        "Express.js",
+        "ReactJS",
+        "NodeJS",
+      
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/joswinemmanuel/SmartLock",
+          href: "https://github.com/robinsamuelkutty/CollegeAdmManage",
           icon: <Icons.github className="size-3" />,
         },
-      ],
-      image: "",
-      video: "/SmartLockDemo.mp4",
+      ], 
+      image: "/ecap.png",
+
     },
     {
-      title: "GitHub Repo Filter",
-      href: "https://github-repo-filter.onrender.com",
-      dates: "Sep 2023 - Nov 2023",
+      title: "React Netflix Clone",
+      href: "netflix-clone-cyan-eta.vercel.app",
+      dates: "Jun 2023 - Jul 2023",
       active: true,
       description:
-        "A GitHub Repository Filter web app built using the Flask framework in Python. It allows users to filter the most starred GitHub repositories by programming language and navigate directly to the repository via a link button.",
+        "This is a Netflix-inspired web application built using React.js as my first React project, created for learning and practicing modern frontend development. The clone replicates the basic layout and functionality of Netflix",
       technologies: [
-        "Python",
-        "Flask",
-        "Javascript",
+       "ReactJs",
+       "CSS",
         "HTML",
-        "CSS",
-        "Github API",
+        "Firebase",
+        "TMDB API",
       ],
       links: [
         {
           type: "Website",
-          href: "https://github-repo-filter.onrender.com",
+          href: "netflix-clone-cyan-eta.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/joswinemmanuel/Github-Repo-Filter",
+          href: "https://github.com/robinsamuelkutty/netflix_clone",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "/GitHubRepoFilter.mp4",
+      image: "/netflix.png",
+      
     },
     {
-      title: "Python Quiz App",
-      href: "https://joswinemmanuel.github.io/Python-Quiz-App/",
-      dates: "Mar 2023 - May 2023",
+      title: "React Olx Clone",
+      href: "https://github.com/robinsamuelkutty/Olx-clone--React",
+      dates: "Jul 2023 - Aug 2023",
       active: true,
       description:
-        "Python Quiz App, built with Flutter, offers an interactive and responsive platform to test Python knowledge, featuring engaging quizzes and a user-friendly design for an enjoyable learning experience.",
+        "This is a clone of the popular online marketplace OLX, built using React.js as part of my hands-on learning journey in frontend development.",
       technologies: [
-        "Dart",
-        "Flutter",
-        "Android Studio",
-        "Visual Studio Code",
-        "App Development",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://joswinemmanuel.github.io/Python-Quiz-App/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/joswinemmanuel/Python-Quiz-App-Code",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "PythonQuizApp.mp4",
-    },
-    {
-      title: "Connect Four",
-      href: "https://joswinemmanuel.github.io/Connect-Four-jQuery/",
-      dates: "Feb 2023",
-      active: true,
-      description:
-        "The classic two-player game of Connect Four, where players compete to connect four dots in a straight line horizontally, vertically, or diagonally to win. Provided a responsive, interactive interface for an engaging experience.",
-      technologies: [
-        "HTML",
+        "ReactJs",
         "CSS",
-        "Javascript",
-        "jQuery",
+        "HTML",
+        "Firebase",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://joswinemmanuel.github.io/Connect-Four-jQuery/",
-          icon: <Icons.globe className="size-3" />,
-        },
+        
         {
           type: "Source",
-          href: "https://github.com/joswinemmanuel/Python-Quiz-App-Code",
+          href: "https://github.com/robinsamuelkutty/Olx-clone--React",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "ConnectFour.mp4",
+      image: "/olx.png",
+
     },
-    {
-      title: "Image Target",
-      href: "https://github.com/joswinemmanuel/Unity/tree/main/Image_Target",
-      dates: "Jun 2022",
-      active: true,
-      description:
-        "Image Target is a project built using Unity and the Vuforia Engine. It detects and tracks images by comparing natural features from the camera feed with a target database. Once the target is identified, an AR object is projected.",
-      technologies: [
-        "C#",
-        "Unity",
-        "Vuforia Engine",
-        "Augmented Reality",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/joswinemmanuel/Unity/tree/main/Image_Target",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "ImageTargeting.mp4",
-    },
+    
   ],
 
   achievements: [
     {
-      title: "Smart India Hackathon prelims",
-      href: "https://www.linkedin.com/posts/joswinemmanuel_python-renpy-unity-activity-7242463172366909440-wpiQ?utm_source=share&utm_medium=member_desktop",
-      dates: "1st Place",
+      title: "IHRD THARANG 2025 Project Expo",
+      href: "https://www.linkedin.com/feed/update/urn:li:activity:7299475433371115520/",
+      dates: "1st Runner Up",
       active: true,
       description:
-        "A visual novel game designed to educate the next generation on the importance of water conservation and the different water conservation techniques in a creative and interactive storytelling approach.",
+        "Our project, Rasengana, is an AI-powered, user-interactive ASL (American Sign Language) learning platform designed to help children who are challenged, mute, or beginners in ASL. Rasengana enhances learning by recognizing gestures using YOLO-based AI models, providing real-time feedback, and incorporating interactive games to make the experience more engaging.",
       technologies: [
+        "Typescript",
+        "React",
+        "FastAPI",
+        "YOLOv8",
+        "AWS Sagemaker",
         "Python",
-        "Ren'Py",
-        "Game Development",
-        "Visual Novel",
-        "Audacity",
-        "Photoshop",
       ],
       links: [
         {
           type: "Post",
-          href: "https://www.linkedin.com/posts/joswinemmanuel_python-renpy-unity-activity-7242463172366909440-wpiQ?utm_source=share&utm_medium=member_desktop",
+          href: "https://www.linkedin.com/feed/update/urn:li:activity:7299475433371115520/",
           icon: <Icons.linkedin className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/joswinemmanuel/AquaQuest",
-          icon: <Icons.github className="size-3" />,
-        },
+       
       ],
-      image: "/sih2.jpg",
+      image: "/tharang.png",
       video: "",
     },
 
     {
-      title: "Internship at CareStack",
-      href: "https://carestack.com/",
-      dates: "Product Engineer",
+      title: "Gen AI Hackathon - PromptCraft",
+      href: "https://www.linkedin.com/feed/update/urn:li:activity:7307788096094253056/",
+      dates: "2nd Place",
       active: true,
       description:
-        "Selected as one of nine interns from over a thousand plus applicants after rigorous interview rounds, this internship was a transformative experience. It provided me with valuable insights into corporate life and equipped me with essential skills to thrive as a software developer, shaping both my technical and professional growth.",
+        "My team and I are proud to have secured 2nd place in the Gen AI Hackathon – Intra College - PromptCraft! With over 60 participants, this 8-hour coding marathon pushed us to innovate, collaborate, and bring AI-driven solutions to life Our project, AI-Driven Smart Wardrobe Stylist, is a cutting-edge fashion assistant that:Recommends outfits based on weather, personal style",
       technologies: [
-        "C#",
-        ".NET",
-        "Angular",
-        "Azure",
-        "SQL Server",
+        "MongoDB",
+        "Express.js",
+        "ReactJS",
+        "NodeJS",
+        "Tailwind CSS",
+        "OpenAI API",
+        "WeatherAPI",
       ],
       links: [
         {
           type: "Post",
-          href: "https://www.linkedin.com/posts/joswinemmanuel_my-internship-at-carestack-as-a-product-engineer-activity-7236327040981819394-iHuf?utm_source=share&utm_medium=member_desktop",
+          href: "https://www.linkedin.com/feed/update/urn:li:activity:7307788096094253056/",
           icon: <Icons.linkedin className="size-3" />,
         },
       ],
-      image: "/carestack_team.jpg",
+      image: "/hackthon.png",
       video: "",
     },
-    {
-      title: "Kaleidoscope IT Talks",
-      href: "https://youtu.be/p1e2ErwWjoQ?si=oxE9TsoVrW4gd9dU",
-      dates: "Best Performer",
-      active: true,
-      description:
-        "I delivered a talk at Kaleidoscope IT Talks, organized by the Computer Society of India (CSI), earning the Best Performer title. I simplified AR, VR, MR and XR concepts, showcasing how these technologies open doors to new realities beyond the physical world.",
-      technologies: [
-        "C#",
-        "Unity",
-        "Vuforia",
-        "VR",
-        "AR",
-        "MR",
-        "XR",
-        "Game Development",
-        "Image Targeting",
-      ],
-      links: [
-        {
-          type: "Post",
-          href: "https://www.linkedin.com/posts/joswinemmanuel_unity-vuforia-extendedreality-activity-6987336555820445696-ngE_?utm_source=share&utm_medium=member_desktop",
-          icon: <Icons.linkedin className="size-3" />,
-        },
-        {
-          type: "Youtube",
-          href: "https://youtu.be/p1e2ErwWjoQ?si=oxE9TsoVrW4gd9dU",
-          icon: <Icons.youtube className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/joswinemmanuel/Unity",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/XR.jpg",
-      video: "",
-    },
-    {
-      title: "Programming, DSA using Python, IIT Madras, NPTEL",
-      href: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS70S2397032709014737",
-      dates: "Topper",
-      active: true,
-      description:
-        "I ranked in the Top 5% in Programming, Data Structures and Algorithms with Python, gaining deep knowledge of Python and its application in solving DSA problems effectively.",
-      technologies: [
-        "Python",
-        "Programming",
-        "Data Structures and Algorithms",
-        "Problem Solving",
-      ],
-      links: [
-        {
-          type: "Post",
-          href: "https://www.linkedin.com/posts/joswinemmanuel_iitmadras-python-dsa-activity-6986696330987393024-lO9i?utm_source=share&utm_medium=member_desktop",
-          icon: <Icons.linkedin className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/joswinemmanuel/NPTEL-DSA-Python",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/NPTEL.jpg",
-      video: "",
-    },
-    {
-      title: "Python 101",
-      href: "https://www.linkedin.com/posts/joswinemmanuel_python-activity-6947903018084220928-z7mw?utm_source=share&utm_medium=member_desktop",
-      dates: "1st Place",
-      active: true,
-      description:
-        "I won my first competition, Python 101, early in my college journey. It included a three-day workshop followed by a live coding and debugging competition, where I showcased my Python skills and emerged victorious.",
-      technologies: [
-        "Python",
-        "Programming",
-        "Data Structures and Algorithms",
-        "Problem Solving",
-      ],
-      links: [
-        {
-          type: "Post",
-          href: "https://www.linkedin.com/posts/joswinemmanuel_python-activity-6947903018084220928-z7mw?utm_source=share&utm_medium=member_desktop",
-          icon: <Icons.linkedin className="size-3" />,
-        },
-      ],
-      image: "/Python101.jpg",
-      video: "",
-    },
-    {
-      title: "ForkIt",
-      href: "https://www.linkedin.com/posts/joswinemmanuel_forkit-winner-activity-6947903495559593984--ZpA?utm_source=share&utm_medium=member_desktop",
-      dates: "Winner",
-      active: true,
-      description:
-        "ForkIt was a GitHub program featuring a two-day workshop that provided in-depth knowledge of Git and GitHub. The program concluded with a competition where participants have to forke the main repository and make valuable contributions",
-      technologies: [
-        "GitHub",
-        "Git",
-        "Open Source Contribution",
-        "Programming",
-        "Development",
-      ],
-      links: [
-        {
-          type: "Post",
-          href: "https://www.linkedin.com/posts/joswinemmanuel_forkit-winner-activity-6947903495559593984--ZpA?utm_source=share&utm_medium=member_desktop",
-          icon: <Icons.linkedin className="size-3" />,
-        },
-      ],
-      image: "/forkit.jpg",
-      video: "",
-    },
+    
   ],
 } as const;

@@ -10,7 +10,8 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
-
+import AOS from "aos";
+import { useEffect } from "react";
 interface Props {
   title: string;
   href?: string;
@@ -40,11 +41,19 @@ export function ProjectCard({
   links,
   className,
 }: Props) {
+  useEffect(() => {
+      AOS.init({
+        duration: 800,     
+        
+        offset: 150,       
+      });
+    }, [])
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
+        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full" 
       }
+      data-aos="fade-up"
     >
       <Link
         href={href || "#"}

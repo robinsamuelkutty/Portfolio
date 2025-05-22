@@ -1,3 +1,4 @@
+"use client";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -7,12 +8,21 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,     
+      
+      offset: 150,       
+    });
+  }, [])
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
+    <main className="flex flex-col min-h-[100dvh] space-y-10" >
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -67,7 +77,7 @@ export default function Page() {
                 href={work.href}
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? "Present"}`}
-                description={work.description}
+               
               />
             </BlurFade>
           ))}
@@ -85,7 +95,7 @@ export default function Page() {
             >
               <ResumeCard
                 key={education.school}
-                href={education.href}
+               
                 logoUrl={education.logoUrl}
                 altText={education.school}
                 title={education.school}
@@ -96,7 +106,7 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="skills">
+      <section id="skills" data-aos="fade-up">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
@@ -111,7 +121,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section id="achievements">
+      <section id="achievements" data-aos="fade-up">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -128,7 +138,7 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto" data-aos="fade-up">
             {DATA.achievements.map((achievements, id) => (
               <BlurFade
                 key={achievements.title}
@@ -152,7 +162,7 @@ export default function Page() {
       </section>
 
 
-      <section id="projects">
+      <section id="projects" data-aos="fade-up">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -171,11 +181,12 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto" data-aos="fade-up">
             {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                data-aos="fade-up"
               >
                 <ProjectCard
                   href={project.href}
@@ -185,7 +196,7 @@ export default function Page() {
                   dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
-                  video={project.video}
+                  
                   links={project.links}
                 />
               </BlurFade>
@@ -193,7 +204,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="contact">
+      <section id="contact" data-aos="fade-up">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
