@@ -117,6 +117,30 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Rising Poonjar 2k25",
+      href: "https://www.risingpoonjar2k25.in",
+      dates: "May 2025",
+      active: true,
+      description:
+        "Developed the official website for The Rising Poonjar 2K25 investors meet, aimed at promoting innovation and investment opportunities at the College of Engineering Poonjar. The platform featured event highlights, speaker profiles, schedules, and an integrated registration system, helping streamline participant engagement and improve the event's digital presence.",
+      technologies: [
+        "ReactJS",
+        "Tailwind CSS",
+        "Vercel",
+        
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.risingpoonjar2k25.in",
+          icon: <Icons.globe className="size-3" />,
+        },
+        
+      ],
+      image: "/risingpoonjar.png",
+      
+    },
+    {
       title: "Bello",
       href: "https://bello-ob8m.onrender.com",
       dates: "Jan 2025 - March 2025",
@@ -127,6 +151,7 @@ export const DATA = {
         "Node.js",
         "Express.js",
         "MongoDB",
+        "ReactJS",
         "Socket.io",
         "ZegoCloud SDK",
         "Pinata",
