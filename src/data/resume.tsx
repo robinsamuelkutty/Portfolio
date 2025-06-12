@@ -109,7 +109,7 @@ export const DATA = {
   ],
   education: [
     {
-      school: "College of Engineering and Technology, Poonjar",
+      school: "College of Engineering, Poonjar",
       href: "https://cep.ac.in/",
       degree: "Bachelor of Technology in Computer Science Engineering",
       logoUrl: "/cep.png",
