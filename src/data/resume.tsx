@@ -23,11 +23,11 @@ export const DATA = {
     "MySQL",
     "MongoDB",
     "PHP",
-    "Docker",
+    "Express.js",
     "C",
     "C++",
     "Java",
-    "Spring Boot",
+    "FastAPI",
     "Git",
     "GitHub",
   ],
@@ -72,25 +72,37 @@ export const DATA = {
 
   work: [
     {
-      company: "IEEE SB CE Poonjar",
+      company: "Software Developer",
       badges: [],
-      href: "https://ieee.cep.ac.in/",
+      href: "https://sps.ieeekerala.org",
       location: "Remote",
-      title: "Web Master",
-      logoUrl: "/ieee.png",
-      start: "Jan 2024",
+      title: "IEEE SPS KERALA CHAPTER",
+      logoUrl: "/sps.png",
+      start: "June 2025",
       end: "Present ",
       
     },
+    
     {
-      company: "College of Engineering, Poonjar",
+      company: "Web Developer",
       badges: [],
       href: "https://cep.ac.in/",
       location: "Remote",
-      title: "Web Developer",
+      title: "College of Engineering, Poonjar",
       logoUrl: "/cep.png",
       start: "Jun 2024",
       end: "Present",
+      
+    },
+    {
+      company: "Web Master",
+      badges: [],
+      href: "https://ieee.cep.ac.in/",
+      location: "Remote",
+      title: "IEEE SB CE Poonjar",
+      logoUrl: "/ieee.png",
+      start: "Jan 2024",
+      end: "Present ",
       
     },
     
@@ -252,7 +264,32 @@ export const DATA = {
       image: "/ecap.png",
 
     },
+   
     {
+      title: "React Olx Clone",
+      href: "https://github.com/robinsamuelkutty/Olx-clone--React",
+      dates: "Jul 2023 - Aug 2023",
+      active: true,
+      description:
+        "This is a clone of the popular online marketplace OLX, built using React.js as part of my hands-on learning journey in frontend development.",
+      technologies: [
+        "ReactJs",
+        "CSS",
+        "HTML",
+        "Firebase",
+      ],
+      links: [
+        
+        {
+          type: "Source",
+          href: "https://github.com/robinsamuelkutty/Olx-clone--React",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/olx.png",
+
+    },
+     {
       title: "React Netflix Clone",
       href: "netflix-clone-cyan-eta.vercel.app",
       dates: "Jun 2023 - Jul 2023",
@@ -280,30 +317,6 @@ export const DATA = {
       ],
       image: "/netflix.png",
       
-    },
-    {
-      title: "React Olx Clone",
-      href: "https://github.com/robinsamuelkutty/Olx-clone--React",
-      dates: "Jul 2023 - Aug 2023",
-      active: true,
-      description:
-        "This is a clone of the popular online marketplace OLX, built using React.js as part of my hands-on learning journey in frontend development.",
-      technologies: [
-        "ReactJs",
-        "CSS",
-        "HTML",
-        "Firebase",
-      ],
-      links: [
-        
-        {
-          type: "Source",
-          href: "https://github.com/robinsamuelkutty/Olx-clone--React",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/olx.png",
-
     },
     
   ],
