@@ -215,7 +215,7 @@ export const DATA = {
     {
       title: "UnityMeet",
       href: "https://unitymeet.vercel.app/",
-      dates: "Dec 2024 -  Present",
+      dates: "Dec 2024 -  Jan 2025",
       active: true,
       description:
         "UnityMeet is a modern video conferencing and collaboration platform designed for seamless real-time communication. It offers features like high-quality video calls, instant messaging, screen sharing, and secure meeting rooms—all within a user-friendly interface. Built to enhance virtual interactions, UnityMeet focuses on performance, reliability, and a smooth user experience.",
