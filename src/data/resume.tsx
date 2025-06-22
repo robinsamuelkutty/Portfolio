@@ -91,8 +91,8 @@ export const DATA = {
       location: "Remote",
       title: "College of Engineering, Poonjar",
       logoUrl: "/cep.png",
-      start: "Jun 2024",
-      end: "Present",
+      start: "June 2024",
+      end: "Aug 2024",
       
     },
     {
