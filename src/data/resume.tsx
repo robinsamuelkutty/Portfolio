@@ -28,6 +28,7 @@ export const DATA = {
     "C++",
     "Java",
     "FastAPI",
+    "Solidity",
     "Git",
     "GitHub",
   ],
@@ -255,6 +256,11 @@ export const DATA = {
       
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://ecapcepoonjar.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/robinsamuelkutty/CollegeAdmManage",
