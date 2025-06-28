@@ -130,6 +130,40 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Krypt",
+      href: "https://krypt-brown.vercel.app",
+      dates: "June 2025",
+      active: true,
+      description:
+        "Krypt is a Web 3.0 blockchain-powered decentralized application (dApp) that allows users to send Ethereum transactions via the Sepolia testnet. Built with Solidity, Ethers.js, Hardhat, React, and Alchemy, Krypt demonstrates the fundamental concepts of blockchain interaction in the browser.",
+      technologies: [
+        "Blockchain",
+        "Solidity",
+        "Hardhat",
+        "Ethers.js",
+        "ReactJS",
+        "Ethereum Sepolia Testnet",
+        "Alchemy",
+        "Metamask",
+        "Giphy API",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://krypt-brown.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/robinsamuelkutty/Krypt",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/krypt.png",
+      
+    },
+    {
       title: "Rising Poonjar 2k25",
       href: "https://www.risingpoonjar2k25.in",
       dates: "May 2025",
