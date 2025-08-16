@@ -80,7 +80,7 @@ export const DATA = {
       title: "IEEE SPS KERALA CHAPTER",
       logoUrl: "/sps.png",
       start: "June 2025",
-      end: "Present ",
+      end: "July 2025",
       
     },
     
@@ -413,6 +413,58 @@ export const DATA = {
         },
       ],
       image: "/hackthon.png",
+      video: "",
+    },
+    {
+      title: "Software Developer at IEEE SPS Kerala Chapter & ICFOSS",
+      href: "https://www.linkedin.com/feed/update/urn:li:activity:7358204421467484180",
+      dates: "June 2025 - July 2025",
+      active: true,
+      description:
+        "Worked as a Backend Developer on RescueLink, a smart emergency response system that monitors disaster-prone area especially flood zones using sensor-based IoT devices. Developing real-time monitoring and alert modules as part of a collaboration between IEEE SPS Kerala Chapter and ICFOSS. Built backend applications using Python (FastAPI) with MongoDB and explored InfluxDB for time-series data. Processed and managed real-time IoT sensor data transmitted via LoRaWAN.",
+      technologies: [
+        "FastAPI",
+        "MongoDB",
+        "InfluxDB",
+        "Python",
+        "IoT",
+        "LoRaWAN",
+      ],
+      links: [
+        {
+          type: "Post",
+          href: "https://www.linkedin.com/feed/update/urn:li:activity:7358204421467484180",
+          icon: <Icons.linkedin className="size-3" />,
+        },
+       
+      ],
+      image: "/icfoss.jpg",
+      video: "",
+    },
+    {
+      title: "Git Set GO",
+      href: "https://www.linkedin.com/feed/update/urn:li:activity:7359268239157202946",
+      dates: "6th August 2025",
+      active: true,
+      description:
+        "I had the incredible opportunity to take my first-ever online session on Git and GitHub, organized by Tinkerhub CEPoonjar — and what an experience it was! Though the number of participants was around 20+, what truly mattered was the experience, growth, and connection it brought. It felt amazing to share knowledge, answer questions, and guide others through tools that are essential for every developer",
+      technologies: [
+        
+        "Git",
+        "GitHub",
+        "Version Control",
+        "V S Code",
+       
+      ],
+      links: [
+        {
+          type: "Post",
+          href: "https://www.linkedin.com/feed/update/urn:li:activity:7359268239157202946",
+          icon: <Icons.linkedin className="size-3" />,
+        },
+       
+      ],
+      image: "/gitsetgo.png",
       video: "",
     },
     
